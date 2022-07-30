@@ -1,4 +1,5 @@
 const core = require('@actions/core');
+const { execSync } = require("child_process");
 
 const createCatFile = ({ email, key }) => `cat >~/.netrc <<EOF
 machine api.heroku.com
