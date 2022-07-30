@@ -1,0 +1,13 @@
+name: 'PR Metadata Action'
+description: 'Logs in to the Heroku CLI'
+inputs:
+  heroku_api_key:
+    description: 'Your heroku API key'
+    required: true
+  email: 
+    description: 'Your heroku email'
+    required: true
+
+runs:
+  using: 'node16'
+  main: 'index.js'
