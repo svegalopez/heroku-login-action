@@ -1,4 +1,6 @@
-# heroku-login-action
+# Heroku Login Action
+
+The heroku CLI comes installed in Github Actions workers by default. Make use of it by logging in!
 
 Example usage:
 
