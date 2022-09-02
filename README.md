@@ -7,7 +7,7 @@ name: Deploy Staging
 
 on:
   push:
-    branches: [main] # Must match the name of your repo's default branch
+    branches: [main] 
   workflow_dispatch:
 
 jobs:
